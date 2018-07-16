@@ -20,7 +20,7 @@ Returns records matching search query. Supported query keys:
 
  - King - will search for matches in 'attacker_king' or 'defender_king' collumns
  - Type - will search for matches in 'battle_type' collumn
- - And others (parameter name, must match the schema property name)   
+ - And others (parameter name must match the schema property name)   
 
 ### Development
 
