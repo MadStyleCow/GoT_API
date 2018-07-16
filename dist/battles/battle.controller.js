@@ -79,21 +79,21 @@ class BattleController {
         // The result should look like this:
         /*
         {
-            "most_active":{
-                "attacker_king": "xxx",
-                "defender_king": "xxx",
-                "region": "xxx"
-            },
-            "attacker_outcome":{
-                "win": 1000, // total win
-                "loss": 1000 // total loss
-            },
-            "battle_type":[], // unique battle types
-            "defender_size":{
-                "average": 10,
-                "min": 5,
-                "max": 100
-            }
+          "most_active":{
+            "attacker_king": "xxx",
+            "defender_king": "xxx",
+            "region": "xxx"
+          },
+          "attacker_outcome":{
+            "win": 1000, // total win
+            "loss": 1000 // total loss
+          },
+          "battle_type":[], // unique battle types
+          "defender_size":{
+            "average": 10,
+            "min": 5,
+            "max": 100
+          }
         }
         */
         // I'll be honest, I spent two hours trying to understand the aggregate methods

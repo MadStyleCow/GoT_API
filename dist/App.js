@@ -13,12 +13,12 @@ class App {
         // Create an express instance
         this.express = express();
         // Specify routes for it to use
-        this.configureRoutes(express);
+        this.configureRoutes();
         // Configure mongoose
         this.configureMongoose();
     }
     // Private methods
-    configureRoutes(pExpress) {
+    configureRoutes() {
         // Specify battle routes
         this.battleRoutes.routes(this.express);
     }
